@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    border: 1px solid blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+    z-index: 100;
+}
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    font-size: 1.1em;
+    color: aqua;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+}
+header nav ul li a:hover{
+    color: yellow;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.conteudo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('') no-repeat;
+}
