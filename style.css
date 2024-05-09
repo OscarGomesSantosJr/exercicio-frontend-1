@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    border: 1px solid blue;
     position: absolute;
     top: 0;
     left: 0;
@@ -48,5 +47,15 @@ header nav ul li a:hover{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url('') no-repeat;
+    background: url('/exercicio-frontend-1/img/fundo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#text {
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 4px 5px rgb(229, 123, 9);
 }
