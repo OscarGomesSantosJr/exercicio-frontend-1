@@ -59,6 +59,7 @@ header nav ul li a:hover{
 }
 #text {
     position: absolute;
+    opacity: 0;
     font-size: 3.1em;
     color: rgb(235, 252, 0);
     text-shadow: 2px 4px 5px rgb(5, 5, 5);
@@ -75,7 +76,7 @@ header nav ul li a:hover{
 .conteudo img#bigmac {
     width: 400px;
     height: 400px;
-    margin: 10% auto auto 25%;
+    margin: 10% auto auto 30%;
 }
 
 .conteudo img#fritas{

@@ -9,6 +9,7 @@ window.addEventListener('scroll', () => {
 
     header.style.marginTop = value * -1.5 + 'px';
     text.style.marginTop = value * 1.9 + 'px';
+    text.style.opacity = value * 0.01;
     bigmac.style.left = value * -3.0 + 'px';
     fritas.style.left = value * 2.5 + 'px';
     linkhome.style.marginTop = value * 2.4 + 'px';
